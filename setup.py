@@ -15,7 +15,7 @@ setuptools.setup(
 
     install_requires=[
         "aiohttp>=3.0.1,<4",
-        "future-fstrings>=0.4.2",
+        'future-fstrings>=0.4.2;python_version<"3.6"',
     ],
     extras_require={
         "detect_mimetype": ["python-magic>=0.4.15,<0.5"],
